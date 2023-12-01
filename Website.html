@@ -1,0 +1,420 @@
+    <code><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Development</title>
+    
+    <link rel="stylesheet" href="Design.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+<style>
+ul{
+    list-style:none ;
+    display:inline-block;
+}
+ul{
+
+    margin: left 80px; 
+    margin: top 30px; 
+}
+li{
+margin:left 680px; 
+display:inline-block;
+margin-left:30px ;
+margin-top:-30px ;
+font-size:12px ;
+color:white ;
+padding:25px;
+background-color:white;
+border-radius:8px;
+font-weight:bold;
+
+}
+</style>
+</head>
+<body>
+
+<div class="bg1">
+<img src="pic.jpg" class="bgimg">
+</div>
+
+
+    <div class="startdiv">
+          <img src="logo_rent-removebg-preview.png" style="width: 105px; ;height:83px;; margin: left 20px;color:white ;margin-top:15px ; " >
+
+    <ul>
+        <li >
+            <i class="bi bi-house"></i>
+            Home</li>
+      <a href="Contact Form.html">   <li>
+        <i class="bi bi-person-lines-fill"></i>
+        Contact</li></a>
+           <li>About</li>
+           <li>Services</li>
+           <li>Rent a car</li>
+           <li>Features</li>
+    </ul>
+    <div class="logdiv" id="openfbpage">
+    <a href="https://www.facebook.com/"><button class="facebookicon" onclick="openfb()"><i class="bi bi-facebook"></i></button></a>
+    </div>
+    <div class="logodiv2" id="openpage">
+      <a href="https://www.instagram.com/">  <button class="instagramicon" onclick="openinsta()"><i class="bi bi-instagram"></i></button></a>
+
+    </div>
+
+
+</div>
+<div class="paragraph">
+<p class="para"></p>
+</div>
+<div class="heading">
+    <h1 class="head" id="changecolour"> Favourite Rental Service</h1>
+</div>
+<br><br>
+<p class="para">Contact us now via our website & get a first-time
+    10% discount and enjoy it!</p>
+<button class="btn3"> CONTACT US NOW</button>
+<div class="box"></div>
+<div class="box" id="abc"></div>
+
+<script>
+    var divbox=document.getElementById('abc');
+    
+    function Myfunc(){
+    divbox.style.display="block";
+    }
+</script>
+<button class="btn4" onclick="openmsgbox()">Open msg box</button>
+<div class="msgbox" id="msg">
+<h1> Chat Box</h1>
+<button class="closebutton" onclick="closediv()">x</button>
+
+
+</div>
+<script>
+    var msg = document.getElementById('msg');
+    function openmsgbox(){
+        msg.classList.add('msg2');
+    }
+</script>
+<div class="icondiv">
+<button class="icon1" onclick="abc()">
+    <i class="bi bi-chat"></i>
+
+</button>
+<div class="chatdiv">
+   <span class="chat1">   Chat Here</span>
+    
+</div>
+</div>
+<div class="page2">
+<p class="p1"> Find a Car</p>
+<h1 class="page2heading"> Looking For a car?</h1>
+<br>
+
+<div class="location">
+<input type="text" class="page2text" >
+<select class="locationselector">
+<option></option>
+<option>Karachi</option>
+<option>Lahore</option>
+<option>Islamabad</option>
+<option>Kpk</option>
+</select>
+
+<span class="span1"> Pick-Up City & Location:</span> 
+</div>
+
+
+
+<div class="location2">
+    <input type="text" class="page2text2">
+    <select class="selector2">
+        <option></option>
+        <option>Lahore</option>
+        <option> Rawalpindi</option>
+        <option> Quetta</option>
+        <option>Balochistan</option>
+    </select>
+    <span class="span2">Return City & Location:</span>
+ </div>
+
+
+
+
+ <div class="location3">
+    
+    <input type="text" class="page2text3">
+    <select class="selector3">
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+    </select>
+
+    <span class="span3"> Class:</span>
+</div>
+
+    <br>
+<div class="location4">
+    
+    <input type="text" class="page2text4">
+    <select class="selector4">
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+
+    </select>
+    <span class="span4"> Date:</span>
+    </div>
+<div class="location5">
+        <input type="text" class="page2text5">
+    <select class="selector5">
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+    </select>
+    
+    <span class="span5"> Noon</span>
+</div> 
+<div class="location6">
+    <input type="text" class="page2text6">
+    <select class="selector6">
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+    </select>
+    
+    <span class="span6"> Date</span>
+    </div>
+
+
+
+<div class="location7">
+    
+    <input type="text" class="page2text7">
+    <select class="selector7">
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+
+
+    </select>
+    <span class="span7"> Noon</span>
+
+    </div>
+<div class="location8">
+    
+    <input type="text" class="page2text8">
+    <select class="selector8">
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+
+
+    </select>
+    
+    <span class="span8"> Search</span>
+</div>
+
+</div>
+<div class="page3">
+    <div class="headingpage3">
+      <p class="p3"> How to Rent</p>  
+    </div>
+ <div class="heading2p2">
+ <span class="page3span">Make 4 Simple Steps To Rent a Car!</span>
+ 
+ <span class="page3span2">
+ Find car rentals at over 2900 locations in the country from TanTum local brand.
+It’s easy to rent a car!
+  </span>
+ 
+ </div>   
+    
+ <div class="processdiv">
+ 
+ <div class="process1">
+<span class="processspan1">
+1
+</span>
+ </div>
+ <p class="processpara">
+    Date and location
+    <br>
+
+   <p class="para2"> Pick the location and the<br> needed rent date.</p>
+ </p>
+ 
+ 
+ </div>   
+ <div class="processdiv2">
+    <div class="process2">
+        <span class="processspan2">
+            2
+            </span>
+</div>
+
+
+<p class="processpara2">
+    Choose a car
+
+</p>
+<p class="para3">
+    Select the vehicle using our catalogues.
+
+</p>
+
+
+ </div>
+ <div class="processdiv3">
+    <div class="process3">
+        <span class="processspan3">
+            3
+            </span>
+    </div>
+
+<p class="processpara3">
+Make a booking
+
+</p>    
+<p class="para4">
+    Enter your name and booking details.
+
+</p>
+ </div>
+<div class="processdiv4">
+    <div class="process4">
+
+        <span class="processspan4">
+            4
+            </span>
+        
+    </div>
+
+    <p class="processpara4">
+        Enjoy your Ride
+
+    </p>
+<p class="para5">
+    Enjoy your trip and our good service!
+
+</p>
+</div>    
+
+</div>
+
+<div class="page4">
+    <div class="page4div">
+        <Span class="page4span">
+            What we Offer
+        </Span>
+         </div>
+         <h1 class="page4head">
+            Explore the car range
+         </h1>
+</div>
+<div class="slider">
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="car pic 5.jpg" class="pic1">
+        
+      </div>
+      <div class="swiper-slide">
+        <img src="car pic2.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img src="car pic 3.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img src="car pic 4.jpg">
+      </div>
+      <div class="swiper-slide">
+        <img src="car pic 6.jpg">
+      </div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+
+</div>
+<div class="page5">
+    
+        <img src="img-23-copyright.jpg">
+    <div class="page5div2">
+        
+        <h1 class="page5head">
+            Use One Way Car Rental!
+        </h1>
+        <div class="page5div3">
+            <p>
+                We go with the fastest options only! Rent a car right away without having to wait in long lines & filling the paperwork, and receive it within 60 minutes. This is the most efficient and elegant way of doing car rent business!
+            </p>
+        </div>
+    </div>
+
+
+ <script>
+    var divopenwithicon = document.getElementById('msg');
+    function abc(){
+        msg.classList.add('msg2');
+
+    }
+
+    var closedivwithbutton = document.getElementById('msg');
+    function closediv(){
+        msg.classList.remove('msg2');
+    }
+    whatsapp.addEventListener('Click',function(a){
+     var whatsapp = document.getElementById('msg');
+     if(abc.className != 'msgbox msg2')
+     {
+        abc.classList.add('msg2');
+
+     }
+     else{
+        abc.classList.remove('msg2');
+     }
+    }); 
+   var openinstagram = document.getElementById('openpage');
+   function openinsta(){
+   }
+   var openfacebook = document.getElementById('openfbpage');
+   function openfb(){
+    
+   }
+    
+ </script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+     slidesPerView: 3,
+     spaceBetween: 30,
+     pagination: {
+       el: ".swiper-pagination",
+       clickable: true,
+     },
+   });
+     </script>
+
+</body>
+</html></code>
